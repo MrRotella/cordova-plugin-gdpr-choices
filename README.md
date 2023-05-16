@@ -4,7 +4,7 @@ Google User Messaging Platform (UMP) SDK gdpr choices.
 
 ## Install on Cordova
 ```bash
-cordova plugin add https://github.com/MrRotella/cordova-plugin-gdpr-check.git
+cordova plugin add https://github.com/MrRotella/cordova-plugin-gdpr-choices.git
 ```
 
 ### USE

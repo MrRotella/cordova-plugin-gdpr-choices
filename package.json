@@ -10,7 +10,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/MrRotella/cordova-plugin-gdpr-check.git"
+        "url": "git+https://github.com/MrRotella/cordova-plugin-gdpr-choices.git"
     },
     "keywords": [
         "ecosystem:cordova",
@@ -28,7 +28,7 @@
     },
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/MrRotella/cordova-plugin-gdpr-check/issues"
+        "url": "https://github.com/MrRotella/cordova-plugin-gdpr-choices/issues"
     },
-    "homepage": "https://github.com/MrRotella/cordova-plugin-gdpr-check"
+    "homepage": "https://github.com/MrRotella/cordova-plugin-gdpr-choices"
 }
