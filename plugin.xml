@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="cordova-plugin-gdpr-choices"
+    version="0.0.1">
+
+    <name>Gdpr Choices</name>
+    <description>
+        This plugin will return the gdpr choices
+    </description>
+    <license>MIT</license>
+
+    <engines>
+        <!--
+            Cordova 2.8.0 is all I have tested on - it should work fine with earlier versions.
+            Please modify the below line, test, and submit a PR if it works for you.
+        -->
+        <engine name="cordova-android" version=">=9.0.0" />
+    </engines>
+
+    <js-module src="www/Gdpr.js">
+       <clobbers target="cordova.Gdpr" />
+    </js-module>
+
+    <!-- android -->
+    <platform name="android">
+        <!-- <config-file target="config.xml" parent="/*">
+            <platform name="android">
+                <preference name="AndroidXEnabled" value="true"/>
+            </platform>
+        </config-file> -->
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="Gdpr">
+                <param name="android-package" value="it.federico.rota.cordova.Gdpr"/>
+            </feature>
+        </config-file>
+        <source-file src="src/android/Gdpr.java" target-dir="src/it/federico/rota/cordova" />
+        <!-- <preference name="PREF_VERSION" default="1.2.0" />
+        <framework src="androidx.preference:preference:$PREF_VERSION"></framework> -->
+    </platform>
+</plugin>
+

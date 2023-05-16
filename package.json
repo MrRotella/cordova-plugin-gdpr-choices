@@ -1,0 +1,34 @@
+{
+    "name": "cordova-plugin-gdpr-choices",
+    "version": "0.0.1",
+    "description": "Google User Messaging Platform (UMP) SDK gdpr choices.",
+    "cordova": {
+        "id": "cordova-plugin-gdpr-choices",
+        "platforms": [
+            "android"
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/MrRotella/cordova-plugin-gdpr-check.git"
+    },
+    "keywords": [
+        "ecosystem:cordova",
+        "cordova-android",
+        "cordova",
+        "plugin",
+        "ad",
+        "admob",
+        "consent",
+        "gdpr"
+    ],
+    "author": {
+        "name": "MrRotella",
+        "url": "https://github.com/MrRotella/"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/MrRotella/cordova-plugin-gdpr-check/issues"
+    },
+    "homepage": "https://github.com/MrRotella/cordova-plugin-gdpr-check"
+}
