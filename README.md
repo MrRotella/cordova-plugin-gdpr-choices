@@ -9,7 +9,7 @@ cordova plugin add https://github.com/MrRotella/cordova-plugin-gdpr-choices.git
 
 ### andoridx preference version
 ```bash
-cordova plugin add https://github.com/MrRotella/cordova-plugin-gdpr-choices.git --variable PREF_VERSION="1.2.0"
+cordova plugin add https://github.com/MrRotella/cordova-plugin-gdpr-choices.git --variable PREF_VERSION=1.2.0
 ```
 
 ### USE
