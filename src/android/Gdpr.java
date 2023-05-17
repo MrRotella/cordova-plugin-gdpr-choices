@@ -2,8 +2,8 @@ package it.federico.rota.cordova;
 
 import android.content.Context;
 import android.content.SharedPreferences;
-import android.preference.PreferenceManager;
-// import androidx.preference.PreferenceManager;
+// import android.preference.PreferenceManager;
+import androidx.preference.PreferenceManager;
 
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaPlugin;

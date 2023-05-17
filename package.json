@@ -1,6 +1,6 @@
 {
     "name": "cordova-plugin-gdpr-choices",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Google User Messaging Platform (UMP) SDK gdpr choices.",
     "cordova": {
         "id": "cordova-plugin-gdpr-choices",

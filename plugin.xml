@@ -2,7 +2,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
     id="cordova-plugin-gdpr-choices"
-    version="0.0.1">
+    version="0.0.2">
 
     <name>Gdpr Choices</name>
     <description>
@@ -24,19 +24,14 @@
 
     <!-- android -->
     <platform name="android">
-        <!-- <config-file target="config.xml" parent="/*">
-            <platform name="android">
-                <preference name="AndroidXEnabled" value="true"/>
-            </platform>
-        </config-file> -->
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="Gdpr">
                 <param name="android-package" value="it.federico.rota.cordova.Gdpr"/>
             </feature>
         </config-file>
         <source-file src="src/android/Gdpr.java" target-dir="src/it/federico/rota/cordova" />
-        <!-- <preference name="PREF_VERSION" default="1.2.0" />
-        <framework src="androidx.preference:preference:$PREF_VERSION"></framework> -->
+        <preference name="PREF_VERSION" default="1.2.0" />
+        <framework src="androidx.preference:preference:$PREF_VERSION" />
     </platform>
 </plugin>
 
