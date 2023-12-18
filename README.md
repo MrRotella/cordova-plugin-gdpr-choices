@@ -1,6 +1,10 @@
 # Cordova Plugin Gdpr Choices (cordova-plugin-gdpr-choices)
 
-Google User Messaging Platform (UMP) SDK gdpr choices.
+Google User Messaging Platform (UMP) SDK gdpr choices. (ONLY Android)
+
+This plugin retrieve the choices made by the user via the Google UMP.
+
+The management of the privacy message via Google UMP is not the subject of this plugin, therefore it must be managed in another way.
 
 ## Install on Cordova
 ```bash

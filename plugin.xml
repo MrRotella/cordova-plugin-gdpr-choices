@@ -2,11 +2,11 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
     id="cordova-plugin-gdpr-choices"
-    version="0.0.2">
+    version="0.0.3">
 
     <name>Gdpr Choices</name>
     <description>
-        This plugin will return the gdpr choices
+        This plugin will return the gdpr choices (ONLY Android)
     </description>
     <license>MIT</license>
 
